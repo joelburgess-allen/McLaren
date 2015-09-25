@@ -1,4 +1,7 @@
 ---
 
 - name: install tomcat7
-  yum: name=tomcat state=present
+  yum: name=tomcat-{{ tomcat_version }} state=present
+
+- name: start and enable tomcat
+  service: name=tomcat state=started enabled=yes
