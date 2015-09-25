@@ -18,5 +18,5 @@ Automated deployment of Tomcat 7
 
 ### Access webapp
 
-Click on the below link to test webapp:
+Click on the following link to test webapp:
 [Sample WebApp](http//:localhost:8080/sample)
