@@ -1,0 +1,8 @@
+---
+
+- name: build default server with tomcat7 application
+  gather_facts: true
+  hosts: all
+  sudo: yes
+  roles:
+    - { role: tomcat7, tags: tomcat7 }

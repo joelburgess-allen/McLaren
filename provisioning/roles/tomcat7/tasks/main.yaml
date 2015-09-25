@@ -1,0 +1,4 @@
+---
+
+- name: install tomcat7
+  yum: name=tomcat state=present
