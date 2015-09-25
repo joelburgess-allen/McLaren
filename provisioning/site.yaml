@@ -6,3 +6,4 @@
   sudo: yes
   roles:
     - { role: tomcat7, tags: tomcat7 }
+    - { role: sample, tags: sample }

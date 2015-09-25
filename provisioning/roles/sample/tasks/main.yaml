@@ -1,0 +1,5 @@
+---
+
+- name: pull down sample war
+  get_url: url=https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war dest=/usr/share/tomcat/webapps owner=tomcat group=tomcat validate_certs=no
+
